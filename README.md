@@ -21,6 +21,7 @@ Configurações iniciais do ambiente de desenvolvimento
           C0115, # missing-class-docstring
           C0116, # missing-function-docstring
           W0703, # Catching too general exception Exception
+3. Instalar o pre-commit
 
 
 temas:
