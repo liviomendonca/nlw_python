@@ -8,6 +8,7 @@ Configurações iniciais do ambiente de desenvolvimento
    setar como comandos
    2. python3 -m venv .venv
    3. . .venv/bin/activate
+
 2. Instalar pylint
    1. pip3 install pylint
    2. ativar a extensão da MS pylint
@@ -21,7 +22,12 @@ Configurações iniciais do ambiente de desenvolvimento
           C0115, # missing-class-docstring
           C0116, # missing-function-docstring
           W0703, # Catching too general exception Exception
+
 3. Instalar o pre-commit
+   1. fazer as configs do pre-commit
+
+4. Gerar o requirements.txt
+   1. .venv/bin/pip3 freeze > requirements.txt
 
 
 temas:
