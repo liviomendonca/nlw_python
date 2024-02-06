@@ -28,6 +28,12 @@ Configurações iniciais do ambiente de desenvolvimento
 
 4. Gerar o requirements.txt
    1. .venv/bin/pip3 freeze > requirements.txt
+5. Instalar Flask
+6. Instalar python-barcode
+7. Instalar pillow
+
+Após isso, gerar o arquivo de requirements novamente para atualizar com as novas instalações
+
 
 
 temas:
