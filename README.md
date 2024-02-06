@@ -34,6 +34,13 @@ Configurações iniciais do ambiente de desenvolvimento
 
 Após isso, gerar o arquivo de requirements novamente para atualizar com as novas instalações
 
+# Vamos codar!
+Os passos acima fazem parte da aula 1 mas vou dividir o projeto em si por aulas
+
+## Aula 1
+Criar e subir o server usando Flask.
+Usar o barcode para receber o código e gerar o uma imagem do código de barras.
+
 
 
 temas:
