@@ -41,6 +41,10 @@ Os passos acima fazem parte da aula 1 mas vou dividir o projeto em si por aulas
 Criar e subir o server usando Flask.
 Usar o barcode para receber o código e gerar o uma imagem do código de barras.
 
+## Aula 2
+Começamos a aula separando o único arquivo 'run_raw.py' que foi criado na primeira aula em uma estrutura de pastas seguindo a filosofia de arquitetura para facilitar a manutenção além de seguir as boas práticas da programação.
+
+No arquivo 'run.py' rodamos o servidor e a opção de debug=True é um "equivalente" ao nodemon. Essa opção "ligada" fica monitorando nossos arquivos para renovar o servidor sempre que os arquivos forem alterados.
 
 
 temas:
