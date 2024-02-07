@@ -46,14 +46,6 @@ Começamos a aula separando o único arquivo 'run_raw.py' que foi criado na prim
 
 No arquivo 'run.py' rodamos o servidor e a opção de debug=True é um "equivalente" ao nodemon. Essa opção "ligada" fica monitorando nossos arquivos para renovar o servidor sempre que os arquivos forem alterados.
 
-Posteriormente, implementamos tipagem http para deixar encapsulado como serão tratadas as requests e responses. E fizemos alguns testes para garantir que estava tudo funcionando.
+Em seguida, implementamos tipagem http para deixar encapsulado como serão tratadas as requests e responses. E fizemos alguns testes para garantir que estava tudo funcionando.
 
-
-
-
-
-
-
-temas:
-bearded theme
-atom one light theme
+E por fim, alteramos a estrutura do projeto para facilitar a manutenção. Controllers farão de uso de funções criadas usando o padrão de desing de fachada onde implementamos as libs externas nos drivers.
