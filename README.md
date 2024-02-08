@@ -49,3 +49,9 @@ No arquivo 'run.py' rodamos o servidor e a opção de debug=True é um "equivale
 Em seguida, implementamos tipagem http para deixar encapsulado como serão tratadas as requests e responses. E fizemos alguns testes para garantir que estava tudo funcionando.
 
 E por fim, alteramos a estrutura do projeto para facilitar a manutenção. Controllers farão de uso de funções criadas usando o padrão de desing de fachada onde implementamos as libs externas nos drivers.
+
+## Aula 3
+Vamos focar em tratamento de erros e testes unitários.
+
+Construir o error_handler bem genérico mesmo e passar para a função para testar.
+Basicamente, colocamos a função de tratamento de errors na rota que queremos testar e ela vai criar uma "máscara" no erro parar torná-lo mais legível e facilitar o entendimento.
