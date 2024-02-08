@@ -55,3 +55,5 @@ Vamos focar em tratamento de erros e testes unitários.
 
 Construir o error_handler bem genérico mesmo e passar para a função para testar.
 Basicamente, colocamos a função de tratamento de errors na rota que queremos testar e ela vai criar uma "máscara" no erro parar torná-lo mais legível e facilitar o entendimento.
+
+Implementamos a lib Cerberus que auxilia na trativa dos erros pois fica mais fácil construir os moldes que queremos. Na parte de implementação de uma tratativa específica para cada tipo de erros, vimos como construir um tipo específico de erros que queremos tratar fazendo uma classe derivada da classe Exception. Dessa forma, podemos especificar nomes e status codes. No error_handler podemos construir a tratativa para esse tipo específico de erro, como envio automático de emails, popular logs e muito mais. Lembrando que essa classe deve ser testada na rota!
