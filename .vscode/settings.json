@@ -1,8 +1,0 @@
-{
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 18,
-    "editor.fontLigatures": true,
-    "files.exclude": {
-        "**/__pycache__": true
-    }
-}
